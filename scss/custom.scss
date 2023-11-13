@@ -2,6 +2,13 @@
 // This is the file you will want to update to customize your page.
 
 // Import Google fonts here
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3&display=swap');
+
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    color: #f2f2f2
+}
 
 
 
@@ -10,7 +17,10 @@
 
 
 // Adjust nav link hover color here
-
+nav a:hover {
+    color: #A04ADD
+    
+}
 
 
 // Typography
@@ -18,8 +28,25 @@
 
 
 // Change font family for headings
+.h1 {
+    font-family: 'Libre Baskerville', serif;
+}
+.h2 {
+    font-family: 'Libre Baskerville', serif;
+}
+.h3 {
+    font-family: 'Libre Baskerville', serif;
+}
+.h4 {
+    font-family: 'Libre Baskerville', serif;
+}
+.h5 {
+    font-family: 'Libre Baskerville', serif;
+}
+.h6 {
+    font-family: 'Libre Baskerville', serif;
 
-
+}
 
 // Change font sizes for h1-h6 using values in assignment
 
@@ -30,3 +57,7 @@
 // Add additional custom code here
 
 // Target .navbar-brand and change font-family to use 'Libre Baskerville'.
+
+:target .navbar-brand {
+    font-family: 'Libre Baskerville', serif;
+}

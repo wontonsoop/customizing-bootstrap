@@ -1,4 +1,38 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3&display=swap");
+body {
+  font-family: "Libre Baskerville", serif;
+  color: #f2f2f2;
+}
+
+nav a:hover {
+  color: #A04ADD;
+}
+
+.h1 {
+  font-family: "Libre Baskerville", serif;
+}
+
+.h2 {
+  font-family: "Libre Baskerville", serif;
+}
+
+.h3 {
+  font-family: "Libre Baskerville", serif;
+}
+
+.h4 {
+  font-family: "Libre Baskerville", serif;
+}
+
+.h5 {
+  font-family: "Libre Baskerville", serif;
+}
+
+.h6 {
+  font-family: "Libre Baskerville", serif;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -11854,6 +11888,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+:target .navbar-brand {
+  font-family: "Libre Baskerville", serif;
 }
 
 /*# sourceMappingURL=custom.css.map */
