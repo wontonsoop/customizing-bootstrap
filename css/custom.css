@@ -11862,5 +11862,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.navbar-brand {
+  font-family: "Libre Baskerville", serif;
+}
 
 /*# sourceMappingURL=custom.css.map */
