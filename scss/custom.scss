@@ -13,43 +13,35 @@ body {
 
 
 // Include any default variable overrides here (colors, font sizes, font family, etc..)
-
+$primary: #A04ADD;
+$secondary: #3B53C7;
+$success: #A4D882;
+$info:  #59C1EF;
+$warning: #FFF689;
+$danger: #E5446D;
+$light: #f2f2f2;
+$dark: #181853;
 
 
 // Adjust nav link hover color here
-nav a:hover {
-    color: #A04ADD
-    
-}
+$navbar-dark-hover-color: $primary;
+
 
 
 // Typography
 // Change font family for base text
-
+$font-family-base: 'Source Sans 3', sans-serif;
 
 // Change font family for headings
-.h1 {
-    font-family: 'Libre Baskerville', serif;
-}
-.h2 {
-    font-family: 'Libre Baskerville', serif;
-}
-.h3 {
-    font-family: 'Libre Baskerville', serif;
-}
-.h4 {
-    font-family: 'Libre Baskerville', serif;
-}
-.h5 {
-    font-family: 'Libre Baskerville', serif;
-}
-.h6 {
-    font-family: 'Libre Baskerville', serif;
-
-}
+$headings-font-family: 'Libre Baskerville', serif;
 
 // Change font sizes for h1-h6 using values in assignment
-
+$h1-font-size: 3.052rem;
+$h2-font-size: 2.441rem;
+$h3-font-size: 1.953rem;
+$h4-font-size: 1.563rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -58,6 +50,5 @@ nav a:hover {
 
 // Target .navbar-brand and change font-family to use 'Libre Baskerville'.
 
-:target .navbar-brand {
-    font-family: 'Libre Baskerville', serif;
-}
+$navbar-brand-font-family: 'Libre Baskerville', serif;
+
